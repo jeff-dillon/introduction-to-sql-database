@@ -13,7 +13,7 @@ the demos.
 The easiest way to work with this database is using the SQLTools extension in
 VSCode. 
 
-1. Install the SLTools extension.
+1. Install the SQLTools extension.
 1. Install the SQLTools SQLite driver
 1. Connect to the `contacts.db` database
 1. Type your query in the contacts database.session.sql file
