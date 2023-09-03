@@ -17,7 +17,7 @@ CREATE TABLE email_address(
 CREATE TABLE person(
     person_id INTEGER PRIMARY KEY, 
     person_first_name VARCHAR(55) NOT NULL,	
-    person_last_name VARCHAR(55) NULL,	
+    person_last_name VARCHAR(55) NOT NULL,
     person_contacted_number INTEGER NOT NULL,
     person_date_last_contacted DATETIME NOT NULL,
     person_date_added DATETIME NOT NULL);
